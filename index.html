@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed|Ubuntu+Mono&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTD SeriousRP</title>
+</head>
+<body>
+    <div class="background">
+    <div class="title">
+        <h5 style="color: gray; position: absolute; top: 10px; left: 40px;">Trauma Community</h5><h1 style="text-align: center;">Reglas del SeriousRP</h1> <h5 style="color: gray; position: absolute; top: 10px; right: 40px;">Hecho por Flexgg13</h5>
+    </div> 
+    <hr>
+    <div class="subtitles">
+        <p>Reglas Básicas.</p>
+    </div>
+    <div class="category">
+        <h3 style="color: brown;">NO ESTA PERMITIDO EL....</h3>
+    </div>
+    <div class="drules">
+        <li>RDM, Random Deathamch (Matar a alguien aleatoriamente sin justificación).</li>
+        <li>MG, Metagaming (Buscar información fuera de rol).</li>
+        <li>Ghosting (Una vez muerto no podras recordar que paso en tu anterior vida).</li>
+        <li>FailRP (Hacer cosas que no debes o romper reglas del trabajo correspondiente).</li>
+        <li>Mic-Spam.</li>
+        <li>Romper NLR (Cuando Mueres dejas una burbuja de tu muerte a la que no puedes acceder por cierto tiempo).</li>
+        <li>Racismo.</li>
+        <li>Prop-Kill.</li>
+        <li>Prop-Surf.</li>
+        <li>Prop-Push.</li>
+        <li>Hacerse pasar por miembro del staff.</li>
+        <li>Uso de bugs/errores.</li>
+        <li>Robo a ciertos lugares de trabajo.</li>
+    </div>
+        <div class="category">
+            <h3 style="color: rgb(167, 255, 5);">SI ESTA PERMITIDO EL....</h3>
+        </div>
+    <div class="prules">
+        <li></li>
+    </div>
+    <div class="subtitles">
+        <p>Reglas/comandos del chat.</p>
+    </div>
+    <div class="rcchat">
+        <li>Con: /reportar, !reportar, /denunciar, !denunciar, puedes denunciar a alguien por el incumplimiento de ciertas reglas. </li>
+        <li>Con: /discord o !discord, podrás acceder a nuestro discord oficial de Trauma Community!</li>
+        <li>Con !peepholes al mirar una puerta (Hazlo del lado de adentro) podrás poner una mirilla de puerta.</li>
+        <li>Con !motd podrás ver las reglas (El mismo menú que estas viendo ahora mismo).</li>
+        <li>Con !taxi podrás llamar al taxi para que te lleve a un lugar en específico.</li>
+        <li></li>
+    </div>
+    <hr>
+    <div class="subtitles">
+        <p>Regla de trabajos.</p>
+    </div>
+    <div class="category">
+        <h3 style="color: blue;">Gubernamental.</h3>
+    </div>
+    <style>
+        .barra {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .contenido {
+            display: none; /* Oculto por defecto */
+            padding: 10px;
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="barra" onclick="toggleContenido()">
+        Policia RPD
+    </div>
+    <div class="contenido" id="contenido">
+        Este es el texto que se despliega al hacer clic en la barra. Aquí puedes poner información adicional sobre la Policía RPD.
+    </div>
+
+    <script>
+        function toggleContenido() {
+            const contenido = document.getElementById('contenido');
+            if (contenido.style.display === 'none' || contenido.style.display === '') {
+                contenido.style.display = 'block'; // Mostrar el contenido
+            } else {
+                contenido.style.display = 'none'; // Ocultar el contenido
+            }
+        }
+    </script>
+    </div>
+</body>
+</html>

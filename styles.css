@@ -1,0 +1,58 @@
+body {
+    background-image: url(assets/gback.jpg);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background {
+    width: 1330px;
+    height: 5000px;
+    opacity: 70%;
+    border-radius: 2%;
+    background-color: black;
+    text-size-adjust: 20px;
+    padding-left: 20px;
+}
+.title {
+    color: white;
+    font-family: "Ubuntu Mono", "Arial";
+
+}
+
+.subtitles {
+    text-align: left;
+    color: rgb(218, 53, 196);
+    font-size: 25px;
+    font-family: monospace;
+    text-decoration: underline;
+}
+
+.category {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.drules {
+    color: rgb(228, 34, 34);
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.prules {
+    color: rgb(30, 255, 0);
+    line-height: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.jcategory {
+    color: whitesmoke;
+}
+
+.rcchat {
+    color: chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.resultado {
+    color: white;
+}
